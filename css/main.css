@@ -1,17 +1,25 @@
-/* Error: Undefined variable.
- *   ,
- * 7 |         margin: $m-auto
- *   |                 ^^^^^^^
- *   '
- *   sass\main.sass 7:17  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 7 \2502          margin: $m-auto\d\a   \2502                  ^^^^^^^\a   \2575 \a   sass\\main.sass 7:17  root stylesheet";
-}
+main .bloques {
+  display: grid;
+  width: 70%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 70px; }
+  main .bloques img {
+    grid-column: 2 / 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 80px; }
+  main .bloques .contenido {
+    grid-column: 1 / 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-top: -50px; }
+    main .bloques .contenido h3 {
+      text-align: center;
+      margin-bottom: 20px; }
+  main .bloques .detonador {
+    margin-top: -100px; }

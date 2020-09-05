@@ -1,0 +1,24 @@
+{
+  "name": "practico2-sass-mentoria",
+  "version": "1.0.0",
+  "description": "practico inicio a sass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass -o css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fviscarra/practico2-sass-mentoria.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fviscarra/practico2-sass-mentoria/issues"
+  },
+  "homepage": "https://github.com/fviscarra/practico2-sass-mentoria#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
