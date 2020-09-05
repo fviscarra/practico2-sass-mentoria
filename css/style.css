@@ -1,0 +1,53 @@
+.container header {
+  background-image: url("./image/imagen-principal");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container h1 {
+  font-family: "Long Cang", cursive;
+}
+.container h2, .container h3, .container h4, .container h5, .container h6 {
+  font-family: "Lobster", cursive;
+  color: red;
+}
+.container .bloques .contenido {
+  font-family: "Lobster", cursive;
+}
+
+main .bloques {
+  display: grid;
+  width: 70%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 70px;
+}
+main .bloques img {
+  grid-column: 2/3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 80px;
+}
+main .bloques .contenido {
+  grid-column: 1/2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  margin-top: -50px;
+}
+main .bloques .contenido h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+main .bloques .detonador {
+  margin-top: -100px;
+}
+
+/*# sourceMappingURL=style.css.map */

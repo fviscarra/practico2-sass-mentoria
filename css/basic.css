@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container h1 {
+  font-family: "Long Cang", cursive;
+}
+.container h2, .container h3, .container h4, .container h5, .container h6 {
+  font-family: "Lobster", cursive;
+  color: red;
+}
+.container .bloques .contenido {
+  font-family: "Lobster", cursive;
+}
+
+/*# sourceMappingURL=basic.css.map */
