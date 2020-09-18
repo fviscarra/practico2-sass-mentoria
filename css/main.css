@@ -21,5 +21,7 @@ main .bloques {
     main .bloques .contenido h3 {
       text-align: center;
       margin-bottom: 20px; }
+    main .bloques .contenido p {
+      color: black; }
   main .bloques .detonador {
     margin-top: -100px; }

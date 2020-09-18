@@ -1,35 +1,3 @@
-.container header {
-  background-image: url("./../image/imagen-principal.jpg");
-  text-align: center;
-  height: 250px;
-  padding-top: 20px;
-  font-size: 40px; }
-  .container header h1 {
-    color: white; }
-  .container header h2 {
-    color: white; }
-  .container header button {
-    background: red;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-.container h1 {
-  font-family: "Long Cang", cursive; }
-
-.container h2, .container h3, .container h4, .container h5, .container h6 {
-  font-family: "Lobster", cursive;
-  color: red; }
-
-.container .bloques .contenido {
-  font-family: 'Lobster', cursive; }
-
 main .bloques {
   display: grid;
   width: 70%;
@@ -53,11 +21,80 @@ main .bloques {
     main .bloques .contenido h3 {
       text-align: center;
       margin-bottom: 20px; }
+    main .bloques .contenido p {
+      color: black; }
   main .bloques .detonador {
     margin-top: -100px; }
 
 .container footer {
   text-align: center;
-  background: black; }
+  background: black;
+  margin-top: 50px; }
   .container footer p {
     color: white; }
+
+.container header {
+  background-image: url("./../image/imagen-principal.jpg");
+  text-align: center;
+  height: 250px;
+  padding-top: 20px;
+  font-size: 40px; }
+  .container header h1 {
+    color: white; }
+  .container header h2 {
+    color: white; }
+  .container header button {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px; }
+
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .container header {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    top: 0; }
+    .container header button {
+      width: 50%;
+      border: 2px solid white;
+      text-align: center; }
+    .container header h1 {
+      font-size: 40px; }
+    .container header h2 {
+      font-size: 25px; }
+  .container main .bloques {
+    width: 60%;
+    margin: 170px auto 0px;
+    grid-template-rows: repeat(3, 1fr); }
+    .container main .bloques img {
+      grid-column: 1 / 3;
+      grid-row-start: 1;
+      grid-row-end: 4;
+      margin: auto; }
+    .container main .bloques .contenido {
+      width: 100%;
+      grid-column: 1 / 3;
+      margin: 30px auto;
+      grid-row-start: 4;
+      grid-row-end: 6;
+      padding-top: -10px;
+      text-align: center; }
+      .container main .bloques .contenido h3 {
+        font-size: 40px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container h1 {
+  font-family: "Long Cang", cursive; }
+
+.container h2, .container h3, .container h4, .container h5, .container h6 {
+  font-family: "Lobster", cursive;
+  color: red; }
+
+.container .bloques .contenido {
+  font-family: 'Lobster', cursive; }

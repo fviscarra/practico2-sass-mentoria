@@ -1,0 +1,11 @@
+@import "./_variables";
+.container {
+    footer {
+        text-align: center;
+        background: $black;
+        margin-top: 50px;
+        p {
+            color: $white;
+        }
+    }
+}
